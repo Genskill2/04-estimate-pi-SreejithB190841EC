@@ -49,7 +49,7 @@ float mc_pi( int n)
     x=frandom();
     y=frandom();
     dst=x*x+y*y;
-    if(dst<=1.0000)
+    if(dst<1.00)
       cp++;
    sp++;
   }
