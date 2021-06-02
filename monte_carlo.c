@@ -41,14 +41,15 @@ int main(void) {
 
 float mc_pi( int n)
 {
-  int x,y,dst,cp,sp;
-  cp=sp=0;
+  int x,y,cp,sp;
+  cp=0;sp=0;
+  float dst;
   for(int i=0;i<n;i++)
   {
     x=frandom();
     y=frandom();
     dst=x*x+y*y;
-    if(dst<=1)
+    if(dst<=1.0000)
       cp++;
    sp++;
   }
