@@ -53,7 +53,7 @@ float mc_pi( int n)
       cp++;
    sp++;
   }
-  float pi=4*cp/sp;
+  float pi=(float) 4*cp/sp;
   return pi;
 }
  
